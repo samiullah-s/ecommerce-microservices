@@ -6,7 +6,7 @@ A robust, scalable e-commerce platform built using Spring Boot and Spring Cloud 
 
 ```mermaid
 graph TD
-    Client[Web/Mobile Client] --> Gateway[API Gateway :8080]
+    Client[Web Client] --> Gateway[API Gateway :8080]
     
     subgraph Infrastructure
         Discovery[Discovery Server :8761]
