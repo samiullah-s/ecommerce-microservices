@@ -34,7 +34,7 @@ graph TD
 ## 🚀 Services Overview
 
 | Service | Port | Description |
-| :--- | :--- | :--- |
+
 | **Discovery Server** | 8761 | Netflix Eureka for service registration and discovery. |
 | **Config Service** | 8888 | Centralized configuration management using Spring Cloud Config. |
 | **API Gateway** | 8080 | Single entry point, handling routing and global filters. |
@@ -91,7 +91,3 @@ Sequence of startup:
 
 The project uses OpenAPI (Swagger) for API documentation. Once a service is running, you can access its UI at:
 `http://localhost:<service-port>/swagger-ui/index.html`
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
