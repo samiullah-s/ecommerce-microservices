@@ -34,7 +34,7 @@ graph TD
 ## 🚀 Services Overview
 
 | Service | Port | Description |
-
+| :--- | :--- | :--- |
 | **Discovery Server** | 8761 | Netflix Eureka for service registration and discovery. |
 | **Config Service** | 8888 | Centralized configuration management using Spring Cloud Config. |
 | **API Gateway** | 8080 | Single entry point, handling routing and global filters. |
