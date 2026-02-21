@@ -1,0 +1,27 @@
+server:
+  port: 9005
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+
+jwt:
+  secret: 6RZQ/L//UU5YeOBAJWFERtIcriPWZDvegkuZoOMqExM=
+
+logging:
+  level:
+    com.example.aggregation: DEBUG
+    feign: DEBUG
